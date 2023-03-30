@@ -37,28 +37,28 @@
         </p>
 
         <div class="card">
-          <form>
-            <div class="input-group">
-              <input type="text" placeholder="First Name">
+          <form name="signupform">
+            <div class="input-group"  id="firstnamegroup">
+              <input name="firstname" type="text" placeholder="First Name">
+              <small class="message"></small>
+            </div>
+
+            <div class="input-group" id="lastnamegroup">
+              <input name="lastname" type="text" placeholder="Last Name">
               <small class="message"></small>
             </div>
 
             <div class="input-group">
-              <input type="text" placeholder="Last Name">
+              <input name="email" type="text" placeholder="Email Address">
               <small class="message"></small>
             </div>
 
             <div class="input-group">
-              <input type="text" placeholder="Email Address">
+              <input name="password" type="password" placeholder="Password">
               <small class="message"></small>
             </div>
 
-            <div class="input-group">
-              <input type="password" placeholder="Password">
-              <small class="message"></small>
-            </div>
-
-            <button class="button">
+            <button id="submitButton" class="button">
               Claim your free trial
             </button>
           </form>
@@ -67,5 +67,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

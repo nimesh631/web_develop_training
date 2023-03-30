@@ -76,7 +76,19 @@ input:active, input:focus{
 
 .input-group{
     margin-bottom: 20px;
+}
 
+.input-group.error input{
+    border: 1px solid hsl(0, 100%, 74%) ;
+
+}
+
+.input-group.error .message{
+    color:hsl(0, 100%, 74%) 
+}
+
+.input-group.error input::placeholder{
+    color:hsl(0, 100%, 74%);
 }
 
 .button{

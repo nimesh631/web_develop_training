@@ -10,8 +10,8 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
-
-- Red: hsl(0, 100%, 74%) 
+hsl(0, 100%, 74%) 
+- Red: 
 - Green: hsl(154, 59%, 51%)
 
 ### Accent
